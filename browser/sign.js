@@ -3,7 +3,7 @@
 // much of this based on https://github.com/indutny/self-signed/blob/gh-pages/lib/rsa.js
 var Buffer = require('safe-buffer').Buffer;
 var createHmac = require('./hash').createHmac;
-var crt = require('browserify-rsa');
+var crt = require('../rsa');
 var EC = require('elliptic').ec;
 var BN = require('bn.js');
 var parseKeys = require('parse-asn1');
