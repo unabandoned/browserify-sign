@@ -2,7 +2,7 @@
 
 var Buffer = require('safe-buffer').Buffer;
 var asn1 = require('parse-asn1/asn1');
-var test = require('tape');
+var test = require('./tape');
 var nCrypto = require('crypto');
 var semver = require('semver');
 var BN = require('bn.js');
