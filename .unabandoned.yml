@@ -1,0 +1,27 @@
+schema: 1
+
+package: "@unabandoned/browserify-sign"
+
+upstream:
+  repo: browserify/browserify-sign
+  reason: >-
+    still released, but the signing tree beneath it is not - create-hash and
+    create-hmac have had no release since 2018
+
+summary: >-
+  Node's crypto Sign/Verify streams implemented for the browser: RSA and ECDSA
+  signature creation and verification over the algorithms in Node's crypto API.
+
+why-forked: >-
+  @unabandoned/crypto-browserify depends on it, and it was the one node in that
+  chain the org had forked but never onboarded - sitting on the upstream package
+  name with upstream's own workflows. Adopted so the chain is owned end to end,
+  and so its readable-stream dependency could move from 2.3.8 to the fork's 4.x.
+
+status: active
+
+used-by:
+  - consumer: "@unabandoned/crypto-browserify"
+    purpose: "Provides the Sign/Verify implementation behind crypto.createSign / createVerify."
+
+tags: [crypto, signing, rsa, ecdsa, browser, browserify]

@@ -1,4 +1,10 @@
-# browserify-sign
+# @unabandoned/browserify-sign
+
+> A maintained fork of [browserify/browserify-sign](https://github.com/browserify/browserify-sign),
+> adopted because `@unabandoned/crypto-browserify` depends on it. Published as
+> [`@unabandoned/browserify-sign`](https://www.npmjs.com/package/@unabandoned/browserify-sign);
+> the API is unchanged from upstream.
+
 
 [![NPM Package](https://img.shields.io/npm/v/browserify-sign.svg?style=flat-square)](https://www.npmjs.org/package/browserify-sign)
 [![Build Status](https://img.shields.io/travis/crypto-browserify/browserify-sign.svg?branch=master&style=flat-square)](https://travis-ci.org/crypto-browserify/browserify-sign)
