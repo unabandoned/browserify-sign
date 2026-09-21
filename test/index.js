@@ -7,7 +7,7 @@ var nCrypto = require('crypto');
 var semver = require('semver');
 var BN = require('bn.js');
 var parseKeys = require('parse-asn1');
-var createHash = require('create-hash');
+var createHash = require('../browser/hash');
 
 var bCrypto = require('../browser');
 var browserSign = require('../browser/sign');
