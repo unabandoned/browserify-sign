@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.5.0](https://github.com/unabandoned/browserify-sign/compare/browserify-sign-v4.4.0...browserify-sign-v4.5.0) (2026-09-21)
+
+
+### Features
+
+* vendor browserify-rsa ([#7](https://github.com/unabandoned/browserify-sign/issues/7)) ([54b4f11](https://github.com/unabandoned/browserify-sign/commit/54b4f1112a25b862a4fb4e0cc133ab914534a85b))
+
 ## [4.4.0](https://github.com/unabandoned/browserify-sign/compare/browserify-sign-v4.3.0...browserify-sign-v4.4.0) (2026-09-21)
 
 
