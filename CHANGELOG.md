@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.5.1](https://github.com/unabandoned/browserify-sign/compare/browserify-sign-v4.5.0...browserify-sign-v4.5.1) (2026-09-21)
+
+
+### Bug Fixes
+
+* **deps:** take elliptic from the fork that patches CVE-2025-14505 ([#9](https://github.com/unabandoned/browserify-sign/issues/9)) ([bcd29f1](https://github.com/unabandoned/browserify-sign/commit/bcd29f18047943fc8581ba4ca26e07c8a17d65e9))
+
 ## [4.5.0](https://github.com/unabandoned/browserify-sign/compare/browserify-sign-v4.4.0...browserify-sign-v4.5.0) (2026-09-21)
 
 
