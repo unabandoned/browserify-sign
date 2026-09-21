@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.4.0](https://github.com/unabandoned/browserify-sign/compare/browserify-sign-v4.3.0...browserify-sign-v4.4.0) (2026-09-21)
+
+
+### Features
+
+* replace create-hash and create-hmac with @unabandoned/hash.js ([#4](https://github.com/unabandoned/browserify-sign/issues/4)) ([f858295](https://github.com/unabandoned/browserify-sign/commit/f8582953698ab09c5296215cb94e0293f747ae00))
+
+
+### Dependencies & maintenance
+
+* run on node:test instead of tape ([#6](https://github.com/unabandoned/browserify-sign/issues/6)) ([f075cc7](https://github.com/unabandoned/browserify-sign/commit/f075cc7f5f3d3dbb99fb93dac347391ec5b856e4))
+
 ## [4.3.0](https://github.com/unabandoned/browserify-sign/compare/browserify-sign-v4.2.6...browserify-sign-v4.3.0) (2026-09-21)
 
 
