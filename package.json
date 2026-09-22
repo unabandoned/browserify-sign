@@ -20,7 +20,7 @@
     "bn.js": "^5.2.5",
     "elliptic": "npm:@unabandoned/elliptic@^7.0.0",
     "inherits": "^2.0.4",
-    "parse-asn1": "^5.1.9",
+    "parse-asn1": "npm:@unabandoned/parse-asn1@^5.2.0",
     "readable-stream": "npm:@unabandoned/readable-stream@^4.8.3",
     "safe-buffer": "^5.2.1"
   },
