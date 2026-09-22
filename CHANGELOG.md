@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.5.3](https://github.com/unabandoned/browserify-sign/compare/browserify-sign-v4.5.2...browserify-sign-v4.5.3) (2026-09-22)
+
+
+### Dependencies & maintenance
+
+* drop the inherited funding file ([#13](https://github.com/unabandoned/browserify-sign/issues/13)) ([a0aab3e](https://github.com/unabandoned/browserify-sign/commit/a0aab3efc41cfec36627d2ad42f0ebf6b0118c88))
+
 ## [4.5.2](https://github.com/unabandoned/browserify-sign/compare/browserify-sign-v4.5.1...browserify-sign-v4.5.2) (2026-09-22)
 
 
