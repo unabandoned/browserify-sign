@@ -1,6 +1,6 @@
 {
   "name": "@unabandoned/browserify-sign",
-  "version": "4.5.3",
+  "version": "4.5.4",
   "description": "adds node crypto signing for browsers",
   "bugs": {
     "url": "https://github.com/unabandoned/browserify-sign/issues"
