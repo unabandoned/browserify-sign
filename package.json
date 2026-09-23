@@ -1,6 +1,13 @@
 {
   "name": "@unabandoned/browserify-sign",
   "version": "4.5.4",
+  "files": [
+    "CHANGELOG.md",
+    "algos.js",
+    "browser",
+    "index.js",
+    "rsa.js"
+  ],
   "description": "adds node crypto signing for browsers",
   "bugs": {
     "url": "https://github.com/unabandoned/browserify-sign/issues"
