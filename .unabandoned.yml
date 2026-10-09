@@ -8,6 +8,20 @@ upstream:
     still released, but the signing tree beneath it is not - create-hash and
     create-hmac have had no release since 2018
 
+  # Upstream commits looked at and deliberately not pulled, so the drift report
+  # stops re-reporting them and a genuinely new commit stands out.
+  reviewed:
+    - sha: 97daf6e9
+      decision: declined
+      note: >-
+        sets cache-mode in upstream's require-allow-edits.yml, a workflow this
+        fork does not have; our CI is the shared reusable workflows
+    - sha: 71d9ffa9
+      decision: declined
+      note: >-
+        bumps @ljharb/eslint-config and auto-changelog, dev tooling this fork
+        does not carry; Renovate manages ours
+
 summary: >-
   Node's crypto Sign/Verify streams implemented for the browser: RSA and ECDSA
   signature creation and verification over the algorithms in Node's crypto API.
