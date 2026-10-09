@@ -1,6 +1,6 @@
 {
   "name": "@unabandoned/browserify-sign",
-  "version": "4.5.4",
+  "version": "4.5.5",
   "files": [
     "CHANGELOG.md",
     "algos.js",
