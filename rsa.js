@@ -15,7 +15,7 @@
 // exponentiation from leaking timing information, so it is not optional.
 
 var BN = require('bn.js');
-var Buffer = require('safe-buffer').Buffer;
+var Buffer = require('buffer').Buffer;
 
 // getRandomValues caps at 65536 bytes per call; RSA moduli are far smaller, but
 // the loop costs nothing and removes the edge.
