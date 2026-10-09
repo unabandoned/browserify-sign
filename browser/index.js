@@ -1,9 +1,9 @@
 'use strict';
 
-var Buffer = require('safe-buffer').Buffer;
+var Buffer = require('buffer').Buffer;
 var createHash = require('./hash');
 var stream = require('readable-stream');
-var inherits = require('inherits');
+var inherits = require('./inherits');
 var sign = require('./sign');
 var verify = require('./verify');
 

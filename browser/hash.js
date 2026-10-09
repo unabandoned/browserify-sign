@@ -15,7 +15,7 @@
 // interface create-hash also exposed is not used here — Sign and Verify are
 // themselves streams and call `_hash.update()` from `_write`.
 
-var Buffer = require('safe-buffer').Buffer;
+var Buffer = require('buffer').Buffer;
 var hash = require('@unabandoned/hash.js');
 
 var algorithms = {
